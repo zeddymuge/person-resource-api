@@ -34,6 +34,9 @@ DELETE `/api/{user_id}`
 
 GET `/api/search?name={name}`
 
+## UML diagram
+![Alt Text](/Untitled%20Diagram.drawio.png)
+
 
 ## Contributing
 
