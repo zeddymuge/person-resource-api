@@ -34,23 +34,6 @@ DELETE `/api/{user_id}`
 
 GET `/api/search?name={name}`
 
-## UML Diagrams
-
-+-------------------+        +-------------------+        +----------------+
-|     Express       |        |      Person       |        |   mongodb    Database    |
-|      Router       |  ----> |     Model         | <----  |                |
-|                   |        |                   |        |                |
-+-------------------+        +-------------------+        +----------------+
-|                   |        |                   |        |                |
-|   POST /          |        |   save()          |        |                |
-|   GET /           |        |   find()          |        |             |
-|   GET /:id        |        |   findById()     |        |                |
-|   PUT /:id        |        |   findByIdAndUpdate()|     |                |
-|   DELETE /:id     |        |   findByIdAndDelete()|     |                |
-|   GET /search     |        |                   |        |                |
-|                   |        |                   |        |                |
-+-------------------+        +-------------------+        +----------------+
-
 
 ## Contributing
 
