@@ -37,6 +37,7 @@ GET `/api/search?name={name}`
 ## UML diagram
 ![Alt Text](/Untitled%20Diagram.drawio.png)
 
+## live endpoint at `https://person2.onrender.com/api  `
 
 ## Contributing
 
